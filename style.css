@@ -83,6 +83,7 @@ img{
     
 }
 #msg2{
+    margin-top:2rem;
     background-color: #f605ca;
     color: #fff;
     font-size: 2rem;
@@ -90,3 +91,4 @@ img{
     padding: 1rem;
     border-radius: 1rem; 
 }
+
