@@ -35,13 +35,13 @@ const showWinner = (userWin , userChoice, compChoice) => {
         userScore++;
         user_Score.innerText = userScore;
         console.log("You Win.");
-        msg.innerText = `You Win.Your ${userChoice} won over ${compChoice}`;
+        msg.innerText = `You Win.Your ${userChoice} won over computer's ${compChoice}`;
         msg.style.backgroundColor = "green";
     }else{
         compScore++;
         comp_Score.innerText = compScore
         console.log("You Lost.Play again.");
-        msg.innerText = `Computer Win.Play Again!.Computer ${compChoice} won over ${userChoice}`;
+        msg.innerText = `Computer Win.Play Again!.Computer's ${compChoice} won over your ${userChoice}`;
         msg.style.backgroundColor = "orange";
 
     }
@@ -84,4 +84,5 @@ choices.forEach((choice) =>{
         console.log("choices was selected",userChoice);
         playGame(userChoice); //we are passing userChoice value to the playGame function
     });
+
 });
