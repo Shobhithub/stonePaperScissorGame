@@ -41,7 +41,7 @@ const showWinner = (userWin , userChoice, compChoice) => {
         compScore++;
         comp_Score.innerText = compScore
         console.log("You Lost.Play again.");
-        msg.innerText = `Computer Win.Play Again!.Computer's ${compChoice} won over your ${userChoice}`;
+        msg.innerText = `Computer Win.Play Again!.Computer ${compChoice} won over ${userChoice}`;
         msg.style.backgroundColor = "orange";
 
     }
@@ -86,3 +86,4 @@ choices.forEach((choice) =>{
     });
 
 });
+
